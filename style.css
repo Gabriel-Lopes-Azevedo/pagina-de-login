@@ -65,7 +65,7 @@ input {
 .opcoes-secundarias {
     display: flex;
     flex-direction: row;
-    gap: 1.875px;
+    gap: 2rem;
     justify-content: center;
 }
 
@@ -117,4 +117,15 @@ a:hover {
         align-items: center;
         justify-content: center;
     }
+}
+
+@media screen and (max-width: 540px) {
+    input {
+        width: 20rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+
 }
